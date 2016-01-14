@@ -1,0 +1,17 @@
+{
+    "shell":true,
+    "path": "$file_path//temp",
+    "cmd":[
+            "C://Windows//System32//taskkill.exe",
+            "-f",
+            "-im",
+            "java.exe",
+            "&",
+            "C://Users//Dillon//Documents//Programming//Processing//processing-2.2.1//processing-java.exe",
+            "--sketch=$file_path",
+            "--output=$file_path/build",
+            "--force",
+            "--build",
+            "--run"
+        ]
+}
